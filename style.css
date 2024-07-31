@@ -1,0 +1,156 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.valentine {
+  height: 100vh;
+  width: 100%;
+  position: fixed;
+  background: linear-gradient(313.01deg, #dd5485, #841648 81.14%);
+  overflow: hidden;
+}
+
+.valentine #heart-group-1, 
+.valentine #heart-group-2, 
+.valentine #heart-group-3, 
+.valentine #heart-group-4, 
+.valentine #heart-group-5 {
+  height: 100vh;
+  width: 100%;
+  position: absolute;
+  transform: translateY(-100%);
+}
+
+.valentine #heart-group-1 {
+  background: url('https://firebasestorage.googleapis.com/v0/b/codepen-asset.appspot.com/o/valentine-animation%2Fheart-xs-1.svg?alt=media&token=c8ee973c-fd7a-4b18-b7cf-fd260962768c') 48% 42% no-repeat, 
+              url('https://firebasestorage.googleapis.com/v0/b/codepen-asset.appspot.com/o/valentine-animation%2Fheart-xs-1.svg?alt=media&token=c8ee973c-fd7a-4b18-b7cf-fd260962768c') 71% 36% no-repeat, 
+              url('https://firebasestorage.googleapis.com/v0/b/codepen-asset.appspot.com/o/valentine-animation%2Fheart-xs-1.svg?alt=media&token=c8ee973c-fd7a-4b18-b7cf-fd260962768c') 41% 94% no-repeat, 
+              url('https://firebasestorage.googleapis.com/v0/b/codepen-asset.appspot.com/o/valentine-animation%2Fheart-xs-1.svg?alt=media&token=c8ee973c-fd7a-4b18-b7cf-fd260962768c') 10% 65% no-repeat, 
+              url('https://firebasestorage.googleapis.com/v0/b/codepen-asset.appspot.com/o/valentine-animation%2Fheart-xs-1.svg?alt=media&token=c8ee973c-fd7a-4b18-b7cf-fd260962768c') 38% 33% no-repeat, 
+              url('https://firebasestorage.googleapis.com/v0/b/codepen-asset.appspot.com/o/valentine-animation%2Fheart-xs-1.svg?alt=media&token=c8ee973c-fd7a-4b18-b7cf-fd260962768c') 4% 25% no-repeat, 
+              url('https://firebasestorage.googleapis.com/v0/b/codepen-asset.appspot.com/o/valentine-animation%2Fheart-xs-1.svg?alt=media&token=c8ee973c-fd7a-4b18-b7cf-fd260962768c') 21% 60% no-repeat, 
+              url('https://firebasestorage.googleapis.com/v0/b/codepen-asset.appspot.com/o/valentine-animation%2Fheart-xs-1.svg?alt=media&token=c8ee973c-fd7a-4b18-b7cf-fd260962768c') 48% 11% no-repeat;
+  filter: blur(12px);
+  z-index: 10;
+  animation: drop linear 17s 2s infinite;
+}
+
+.valentine #heart-group-2 {
+  background: url('https://firebasestorage.googleapis.com/v0/b/codepen-asset.appspot.com/o/valentine-animation%2Fheart-xs-4.svg?alt=media&token=a9aca079-9b66-4d27-83fa-a2cbf4f97df8') 40% 72% no-repeat, 
+              url('https://firebasestorage.googleapis.com/v0/b/codepen-asset.appspot.com/o/valentine-animation%2Fheart-xs-4.svg?alt=media&token=a9aca079-9b66-4d27-83fa-a2cbf4f97df8') 67% 16% no-repeat, 
+              url('https://firebasestorage.googleapis.com/v0/b/codepen-asset.appspot.com/o/valentine-animation%2Fheart-xs-4.svg?alt=media&token=a9aca079-9b66-4d27-83fa-a2cbf4f97df8') 35% 51% no-repeat;
+  filter: blur(5px);
+  z-index: 20;
+  animation: drop linear 14s 0s infinite;
+}
+
+.valentine #heart-group-3 {
+  background: url('https://firebasestorage.googleapis.com/v0/b/codepen-asset.appspot.com/o/valentine-animation%2Fheart-xs-2.svg?alt=media&token=e542fc9c-87de-4817-a42e-3a23c42e9e92') 72% 26% no-repeat, 
+              url('https://firebasestorage.googleapis.com/v0/b/codepen-asset.appspot.com/o/valentine-animation%2Fheart-xs-2.svg?alt=media&token=e542fc9c-87de-4817-a42e-3a23c42e9e92') 37% 11% no-repeat, 
+              url('https://firebasestorage.googleapis.com/v0/b/codepen-asset.appspot.com/o/valentine-animation%2Fheart-xs-2.svg?alt=media&token=e542fc9c-87de-4817-a42e-3a23c42e9e92') 25% 61% no-repeat;
+  filter: blur(3px);
+  z-index: 30;
+  animation: drop linear 12s 1s infinite;
+}
+
+.valentine #heart-group-4 {
+  background: url('https://firebasestorage.googleapis.com/v0/b/codepen-asset.appspot.com/o/valentine-animation%2Fheart-xs-1.svg?alt=media&token=c8ee973c-fd7a-4b18-b7cf-fd260962768c') 31% 76% no-repeat, 
+              url('https://firebasestorage.googleapis.com/v0/b/codepen-asset.appspot.com/o/valentine-animation%2Fheart-xs-1.svg?alt=media&token=c8ee973c-fd7a-4b18-b7cf-fd260962768c') 74% 46% no-repeat, 
+              url('https://firebasestorage.googleapis.com/v0/b/codepen-asset.appspot.com/o/valentine-animation%2Fheart-xs-1.svg?alt=media&token=c8ee973c-fd7a-4b18-b7cf-fd260962768c') 26% 37% no-repeat;
+  filter: blur(2px);
+  z-index: 40;
+  animation: drop linear 10s 1s infinite;
+}
+
+.valentine #heart-group-5 {
+  background: url('https://firebasestorage.googleapis.com/v0/b/codepen-asset.appspot.com/o/valentine-animation%2Fheart-xs-5.svg?alt=media&token=71ca3b0c-8715-4484-92e7-b027edd71631') 95% 5% no-repeat, 
+              url('https://firebasestorage.googleapis.com/v0/b/codepen-asset.appspot.com/o/valentine-animation%2Fheart-xs-5.svg?alt=media&token=71ca3b0c-8715-4484-92e7-b027edd71631') 27% 79% no-repeat, 
+              url('https://firebasestorage.googleapis.com/v0/b/codepen-asset.appspot.com/o/valentine-animation%2Fheart-xs-5.svg?alt=media&token=71ca3b0c-8715-4484-92e7-b027edd71631') 54% 90% no-repeat, 
+              url('https://firebasestorage.googleapis.com/v0/b/codepen-asset.appspot.com/o/valentine-animation%2Fheart-xs-5.svg?alt=media&token=71ca3b0c-8715-4484-92e7-b027edd71631') 99% 98% no-repeat;
+  filter: blur(1px);
+  z-index: 50;
+  animation: drop linear 8s 0s infinite;
+}
+
+.valentine #star-group-1, 
+.valentine #star-group-2, 
+.valentine #star-group-3 {
+  height: 100vh;
+  width: 100%;
+  position: absolute;
+  transform: translateY(0%);
+  z-index: 60;
+}
+
+.valentine #star-group-1 {
+  background: url('https://firebasestorage.googleapis.com/v0/b/codepen-asset.appspot.com/o/valentine-animation%2Fglitter-star.svg?alt=media&token=d02ddfae-65ea-4056-b45e-13cf14e7d0d2') 20% 4% no-repeat, 
+              url('https://firebasestorage.googleapis.com/v0/b/codepen-asset.appspot.com/o/valentine-animation%2Fglitter-star.svg?alt=media&token=d02ddfae-65ea-4056-b45e-13cf14e7d0d2') 80% 14% no-repeat, 
+              url('https://firebasestorage.googleapis.com/v0/b/codepen-asset.appspot.com/o/valentine-animation%2Fglitter-star.svg?alt=media&token=d02ddfae-65ea-4056-b45e-13cf14e7d0d2') 5% 48% no-repeat, 
+              url('https://firebasestorage.googleapis.com/v0/b/codepen-asset.appspot.com/o/valentine-animation%2Fglitter-star.svg?alt=media&token=d02ddfae-65ea-4056-b45e-13cf14e7d0d2') 76% 70% no-repeat, 
+              url('https://firebasestorage.googleapis.com/v0/b/codepen-asset.appspot.com/o/valentine-animation%2Fglitter-star.svg?alt=media&token=d02ddfae-65ea-4056-b45e-13cf14e7d0d2') 31% 96% no-repeat;
+  animation: star-drop 7s linear infinite;
+}
+
+.valentine #star-group-2 {
+  background: url('https://firebasestorage.googleapis.com/v0/b/codepen-asset.appspot.com/o/valentine-animation%2Fglitter-star.svg?alt=media&token=d02ddfae-65ea-4056-b45e-13cf14e7d0d2') 30% 6% no-repeat, 
+              url('https://firebasestorage.googleapis.com/v0/b/codepen-asset.appspot.com/o/valentine-animation%2Fglitter-star.svg?alt=media&token=d02ddfae-65ea-4056-b45e-13cf14e7d0d2') 75% 25% no-repeat, 
+              url('https://firebasestorage.googleapis.com/v0/b/codepen-asset.appspot.com/o/valentine-animation%2Fglitter-star.svg?alt=media&token=d02ddfae-65ea-4056-b45e-13cf14e7d0d2') 10% 50% no-repeat, 
+              url('https://firebasestorage.googleapis.com/v0/b/codepen-asset.appspot.com/o/valentine-animation%2Fglitter-star.svg?alt=media&token=d02ddfae-65ea-4056-b45e-13cf14e7d0d2') 70% 80% no-repeat, 
+              url('https://firebasestorage.googleapis.com/v0/b/codepen-asset.appspot.com/o/valentine-animation%2Fglitter-star.svg?alt=media&token=d02ddfae-65ea-4056-b45e-13cf14e7d0d2') 35% 95% no-repeat;
+  animation: star-drop 7s linear infinite 2s;
+}
+
+.valentine #star-group-3 {
+  background: url('https://firebasestorage.googleapis.com/v0/b/codepen-asset.appspot.com/o/valentine-animation%2Fglitter-star.svg?alt=media&token=d02ddfae-65ea-4056-b45e-13cf14e7d0d2') 25% 10% no-repeat, 
+              url('https://firebasestorage.googleapis.com/v0/b/codepen-asset.appspot.com/o/valentine-animation%2Fglitter-star.svg?alt=media&token=d02ddfae-65ea-4056-b45e-13cf14e7d0d2') 80% 35% no-repeat, 
+              url('https://firebasestorage.googleapis.com/v0/b/codepen-asset.appspot.com/o/valentine-animation%2Fglitter-star.svg?alt=media&token=d02ddfae-65ea-4056-b45e-13cf14e7d0d2') 15% 55% no-repeat, 
+              url('https://firebasestorage.googleapis.com/v0/b/codepen-asset.appspot.com/o/valentine-animation%2Fglitter-star.svg?alt=media&token=d02ddfae-65ea-4056-b45e-13cf14e7d0d2') 70% 75% no-repeat, 
+              url('https://firebasestorage.googleapis.com/v0/b/codepen-asset.appspot.com/o/valentine-animation%2Fglitter-star.svg?alt=media&token=d02ddfae-65ea-4056-b45e-13cf14e7d0d2') 40% 90% no-repeat;
+  animation: star-drop 7s linear infinite 4s;
+}
+
+@keyframes drop {
+  100% {
+    transform: translateY(100%);
+  }
+}
+
+@keyframes star-drop {
+  100% {
+    transform: translateY(100vh);
+  }
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .valentine #heart-group-1, 
+  .valentine #heart-group-2, 
+  .valentine #heart-group-3, 
+  .valentine #heart-group-4, 
+  .valentine #heart-group-5 {
+    background-size: 50px;
+  }
+  
+  .valentine #star-group-1, 
+  .valentine #star-group-2, 
+  .valentine #star-group-3 {
+    background-size: 30px;
+  }
+}
+
+@media (max-width: 480px) {
+  .valentine #heart-group-1, 
+  .valentine #heart-group-2, 
+  .valentine #heart-group-3, 
+  .valentine #heart-group-4, 
+  .valentine #heart-group-5 {
+    background-size: 30px;
+  }
+  
+  .valentine #star-group-1, 
+  .valentine #star-group-2, 
+  .valentine #star-group-3 {
+    background-size: 20px;
+  }
+}
